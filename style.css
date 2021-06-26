@@ -89,7 +89,9 @@ nav > a:hover{
 }
 
 body{
-    height: 100%;
+    display: flex;
+    flex-direction: column;
+    min-height: 1;
     background-image: radial-gradient( #3DD4D4, #185454);
 }
 
@@ -136,7 +138,6 @@ img{
 }
 
 footer{
-    float: bottom;
     background-color: var(--corescura);
     height: 30px;
     text-align: center;
