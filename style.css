@@ -91,12 +91,12 @@ nav > a:hover{
 body{
     display: flex;
     flex-direction: column;
-    min-height: 1;
+    min-height: 100vh;
     background-image: radial-gradient( #3DD4D4, #185454);
 }
 
 main{
-    height: 190px;
+    flex-grow: 1;
 }
 
 #buscar{
