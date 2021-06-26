@@ -1,0 +1,143 @@
+@charset "UTH8";
+/*
+mais claro    - #3DD4D4
+cor principal - #288888
+mais escuro   - #185454
+*/
+
+
+*{
+    margin: 0px;
+}
+
+@font-face {
+    font-family: 'pincel';
+    src: url('fontes/pincel.ttf') format('truetype');
+}
+
+:root{
+    --corclara: #3DD4D4;
+    --corprincipal: #288888;
+    --corescura: #185454;
+    --cor2: #2888887a;
+}
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#login{
+    background-color: var(--corescura);
+    width: 108px;
+    height: 36px;
+    float: right;
+    padding: 0px;
+    margin: 10px 10px;
+    border-radius: 10px;
+    border: solid 2px;
+    border-color: var(--corprincipal);
+}
+
+#login:hover{
+    background-color: #288888;
+}
+
+#btlogin{
+    border: none;
+    float: right;
+    height: 30px;
+    width: 70px;
+    background-color: transparent;
+
+}
+
+#usuario{
+    float: left;
+    height: 30px;
+    width: 30px;
+    margin: 0px;
+}
+
+header > h1{
+    color: black;
+    font-weight: 100;
+    font-family: 'pincel';
+    font-size: 130px;
+    text-align: center;
+    margin: auto;
+    padding-top: 150px;
+    
+}
+
+header > nav{
+    margin: auto;
+    width: 400px;
+}
+
+nav > a{
+    text-decoration: none;
+    color: white;
+    background-color: rgba(255, 255, 255, 0.2);
+    padding: 5px;
+    margin-left: 20px;
+    border-radius: 10px;
+    
+}
+
+nav > a:hover{
+    background-color: rgba(255, 255, 255, 0.308);
+}
+
+body{
+    height: 100%;
+    background-image: radial-gradient( #3DD4D4, #185454);
+}
+
+main{
+    height: 190px;
+}
+
+#buscar{
+    background-color: rgba(255, 255, 255, 0.089);
+    border: solid 2px var(--corclara);
+    border-radius: 10px;
+    width: 300px;
+    height: 34px;
+    margin: auto;
+    margin-top: 50px;
+}
+
+#txtbuscar{
+    float: left;
+    background-color: transparent;
+    padding-left: 5px;
+    font-size: 18px;
+    border: none;
+    height: 34px;
+    width: 190px;
+}
+
+#btbuscar{
+    border: none;
+    float: left;
+    height: 34px;
+    border-radius: 0px 7px 7px 0px;
+    width: 70px;
+    font-weight: bold;
+    background: var(--corprincipal);
+}
+
+img{
+    width: 28px;
+    float: left;
+    padding-left: 5px;
+    padding-top: 3px;
+    border-radius: 7px;
+}
+
+footer{
+    float: bottom;
+    background-color: var(--corescura);
+    height: 30px;
+    text-align: center;
+}
