@@ -12,7 +12,7 @@ mais escuro   - #185454
 
 @font-face {
     font-family: 'pincel';
-    src: url('fontes/pincel.ttf') format('truetype');
+    src: url('../fontes/pincel.ttf') format('truetype');
 }
 
 :root{
